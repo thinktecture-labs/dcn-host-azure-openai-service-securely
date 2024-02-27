@@ -1,0 +1,17 @@
+﻿# dotnet
+**/bin/
+**/obj/
+**/appsettings.*.json
+**/Properties
+
+# angular
+**/node_modules
+**/.vscode
+**/dist
+**/.angular
+
+# misc
+**/Dockfile
+**/.dockerignore
+**/docker-compose.yml
+**/[dD]eployment

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingAzureOpenAiSample.WebApp", "HostingAzureOpenAiSample.WebApp\HostingAzureOpenAiSample.WebApp.csproj", "{4074A874-20CF-4068-94EC-1A398AB15156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{FC76D2F9-43EB-405A-B32E-2112C25BD797}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4074A874-20CF-4068-94EC-1A398AB15156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4074A874-20CF-4068-94EC-1A398AB15156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4074A874-20CF-4068-94EC-1A398AB15156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4074A874-20CF-4068-94EC-1A398AB15156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

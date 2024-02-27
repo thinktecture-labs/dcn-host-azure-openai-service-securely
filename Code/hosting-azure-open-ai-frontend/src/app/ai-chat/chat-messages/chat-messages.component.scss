@@ -1,0 +1,10 @@
+:host {
+    overflow-y: scroll;
+}
+
+.chat-messages-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}

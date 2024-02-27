@@ -1,0 +1,24 @@
+<div class="container-center">
+    <form class="chat-input" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <mat-label>Type to chat (hit CTRL + ENTER to send)</mat-label>
+            <textarea
+              cdkTextareaAutosize
+              #autosize="cdkTextareaAutosize"
+              cdkAutosizeMinRows="1"
+              cdkAutosizeMaxRows="5"
+              matInput
+              formControlName="message"
+              (keydown)="onKeyDown($event)"              
+            ></textarea>
+        </mat-form-field>
+        <button
+          mat-fab color="primary"
+          type="submit"
+          aria-label="send message"
+          [disabled]="isSubmitButtonDisabled"
+        >
+            <mat-icon>send</mat-icon>
+        </button>
+    </form>
+</div>

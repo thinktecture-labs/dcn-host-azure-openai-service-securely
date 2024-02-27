@@ -1,0 +1,5 @@
+<mat-toolbar color="primary" role="heading" class="flex-grow-0">
+    <span>Hosting OpenAI in Azure</span>
+</mat-toolbar>
+<app-chat-messages #chatMessages />
+<app-chat-input #chatInput (messageSubmitted)="onMessageSubmitted($event)" />

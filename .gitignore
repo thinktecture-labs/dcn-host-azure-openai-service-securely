@@ -1,0 +1,10 @@
+.vs/
+.vscode/
+.idea/
+bin/
+obj/
+[dD]eployment/
+*.user
+*.suo
+appsettings.*.json
+startup-error.log
